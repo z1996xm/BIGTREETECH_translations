@@ -97,6 +97,10 @@ nav:
   - Releases.md
   - Config_Changes.md
   - Contact.md
+  - CB1_Info.md
+  - OS_Settings.md
+  - SSH.md  
+  - Write_OS.md 
   - Telepítés és Konfiguráció:
     - Installation.md
     - Konfigurációs Hivatkozás:

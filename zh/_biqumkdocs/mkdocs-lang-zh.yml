@@ -97,6 +97,10 @@ nav:
   - Releases.md
   - Config_Changes.md
   - Contact.md
+  - CB1_Info.md
+  - OS_Settings.md
+  - SSH.md  
+  - Write_OS.md 
   - 安装和配置:
     - Installation.md
     - 配置参考:
