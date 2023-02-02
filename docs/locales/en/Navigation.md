@@ -10,6 +10,9 @@ Resonance Compensation
 
 Command templates
 
+FAQ
+
 Developer Documentation
 
 Device Specific Documents
+
