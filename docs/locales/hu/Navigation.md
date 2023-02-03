@@ -13,5 +13,3 @@ Parancssablonok
 Fejlesztői Dokumentáció
 
 Eszközspecifikus Dokumentumok
-
-Eszközspecifikus Dokumentumok

@@ -13,5 +13,3 @@ Template dei comandi
 Documentazione per sviluppatori
 
 Documenti specifici del dispositivo
-
-Documenti specifici del dispositivo

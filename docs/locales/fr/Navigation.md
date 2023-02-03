@@ -13,5 +13,3 @@ Modèles de commandes
 Documentation pour les développeurs
 
 Documents spécifiques à certains appareils
-
-Documents spécifiques à certains appareils
