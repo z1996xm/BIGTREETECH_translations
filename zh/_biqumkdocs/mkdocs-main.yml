@@ -5,8 +5,10 @@
 
 # Site and directory configuration
 site_name: BIGTREETECH documentation
-repo_url: https://github.com/z1996xm/BIGTREETECH
-repo_name: z1996xm/BIGTREETECH
+# repo_url: https://github.com/z1996xm/BIGTREETECH
+# repo_name: z1996xm/BIGTREETECH
+repo_url: https://github.com/z1996xm/BIGTREETECH_translations
+repo_name: z1996xm/BIGTREETECH_translations
 edit_uri: blob/main/docs/
 use_directory_urls: False
 docs_dir: '../'
