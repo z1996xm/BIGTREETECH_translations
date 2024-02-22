@@ -173,7 +173,7 @@ extra:
     #   lang: en
     - name: Chinese
       # link: https://z1996xm.github.io/BIGTREETECH_translations/zh/
-      link: /zh/
+      link: zh
       lang: zh
   # alternate:
   #   - name: English
