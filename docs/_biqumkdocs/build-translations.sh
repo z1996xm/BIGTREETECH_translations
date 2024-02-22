@@ -43,7 +43,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   cp "${locale_dir}"/*.md "${new_docs_dir}"
   echo "copy resources"
   cp -r docs/img "${new_docs_dir}"
-  cp -r docs/prints "${new_docs_dir}"
+  # cp -r docs/prints "${new_docs_dir}"
   cp -r docs/_biqumkdocs "${new_docs_dir}"
 
   # manually replace index.md if a manual-index.md exist
