@@ -81,11 +81,11 @@ extra:
   #     lang: en
 
 nav:
-  - Home: https://z1996xm.github.io/BIGTREETECH
+  # - Home: https://z1996xm.github.io/BIGTREETECH
   - BTT: 
     - HDMI5:
-      - HDMI5: HDMI5.md
+      - HDMI5.md
   - BIQU: 
     - HDMI7: 
-      - HDMI7: HDMI7.md
+      - HDMI7.md
 
