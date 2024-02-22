@@ -74,20 +74,12 @@ extra:
       lang: en
     # Alternate language links automatically added here
 
-# Navigation hierarchy (this should mimic the layout of Overview.md)
 nav:
-  - Product_line1(Core_board):
-    - CB1:
-      - Document:
-        - CB1_Info.md
-      - Package download:
-        - Write_OS.md
-      - Software:
-        - SSH.md
-        - OS_Settings.md
-      # - FAQ:
-  - Product_line2(Manta):
-    - Code_Overview.md
-  - Technical Tutorials:
-    - Example_Configs.md
+  - Home: https://z1996xm.github.io/BIGTREETECH
+  - BTT: 
+    - HDMI5:
+      - HDMI5: HDMI5.md
+  - BIQU: 
+    - HDMI7: 
+      - HDMI7: HDMI7.md
 
