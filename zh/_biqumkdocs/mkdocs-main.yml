@@ -169,7 +169,7 @@ extra:
   # Language Selection
   alternate: # 由上面那个i18n插件提供的多语言功能，这个似乎就不需要了。 这个是官方文档的例子，但是官方没有提供很详细的例子，所以我也不知道怎么用。
     - name: English
-      link: /
+      link: https://z1996xm.github.io/BIGTREETECH_translations/
       lang: en
     - name: Chinese
       # link: https://z1996xm.github.io/BIGTREETECH_translations/zh/
