@@ -27,10 +27,10 @@ while IFS="," read dirname langsite langdesc langsearch; do
   new_docs_dir="${WORK_DIR}lang/${langsite}/docs/"
   locale_dir="${TRANS_DIR}/docs/locales/${dirname}"
 
-  # # read toc
-  # title=$(sed -n '1p' ${locale_dir}/Navigation.md)
-  # installation_and_configuration=$(sed -n '3p' ${locale_dir}/Navigation.md)
-  # configuration_reference=$(sed -n '5p' ${locale_dir}/Navigation.md)
+  # read toc
+  title=$(sed -n '1p' ${locale_dir}/Navigation.md)
+  BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
+  BIQU=$(sed -n '5p' ${locale_dir}/Navigation.md)
   # bed_level=$(sed -n '7p' ${locale_dir}/Navigation.md)
   # resonance_compensation=$(sed -n '9p' ${locale_dir}/Navigation.md)
   # command_template=$(sed -n '11p' ${locale_dir}/Navigation.md)
@@ -66,12 +66,10 @@ while IFS="," read dirname langsite langdesc langsearch; do
   echo "replace site language"
   sed -i "s%^  language: en$%  language: ${langsite}%" "${new_mkdocs_file}"
 
-  # echo "replace toc"
-  # sed -i "s%Klipper documentation$%${title}%" "${new_mkdocs_file}"
-  # sed -i "s%Installation and Configuration:$%${installation_and_configuration}:%" "${new_mkdocs_file}"
-  # sed -i "s%Configuration Reference:$%${configuration_reference}:%" "${new_mkdocs_file}"
-  # sed -i "s%Bed Level:$%${bed_level}:%" "${new_mkdocs_file}"
-  # sed -i "s%Resonance Compensation:$%${resonance_compensation}:%" "${new_mkdocs_file}"
+  echo "replace toc"
+  sed -i "s%BIGTREETECH documentation$%${title}%" "${new_mkdocs_file}"
+  sed -i "s%BTT:$%${BTT}:%" "${new_mkdocs_file}"
+  sed -i "s%BIQU:$%${BIQU}:%" "${new_mkdocs_file}"
   # sed -i "s%Command templates:$%${command_template}:%" "${new_mkdocs_file}"
   # sed -i "s%Developer Documentation:$%${developer_documentation}:%" "${new_mkdocs_file}"
   # sed -i "s%Device Specific Documents:$%${device_specific_documents}:%" "${new_mkdocs_file}"
