@@ -46,14 +46,14 @@ while IFS="," read dirname langsite langdesc langsearch; do
   # cp -r docs/prints "${new_docs_dir}"
   cp -r docs/_biqumkdocs "${new_docs_dir}"
 
-  # manually replace index.md if a manual-index.md exist
-  manual_index="${new_docs_dir}manual-index.md"
-  if [[ -f "${manual_index}" ]]; then
-    mv -f "${manual_index}" "${new_docs_dir}index.md"
-    echo "replaced index.md with manual_index.md for $langsite"
-  else
-    echo "Manually translated index file for $langsite not found!"
-  fi
+  # # manually replace index.md if a manual-index.md exist
+  # manual_index="${new_docs_dir}manual-index.md"
+  # if [[ -f "${manual_index}" ]]; then
+  #   mv -f "${manual_index}" "${new_docs_dir}index.md"
+  #   echo "replaced index.md with manual_index.md for $langsite"
+  # else
+  #   echo "Manually translated index file for $langsite not found!"
+  # fi
 
   # Create language specific mkdocs-lang-xxx.yml file
   echo "create language specific mkdocs configurations for ${langsite}"
