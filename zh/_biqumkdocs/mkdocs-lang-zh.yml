@@ -167,17 +167,17 @@ extra:
     provider: google
     property: UA-138371409-1
   # Language Selection
-  alternate: # 由上面那个i18n插件提供的多语言功能，这个似乎就不需要了。 这个是官方文档的例子，但是官方没有提供很详细的例子，所以我也不知道怎么用。
-    - name: English
-      link: en
-      lang: en
-    - name: Chinese
-      link: zh
-      lang: zh
-  # alternate:
+  # alternate: 
   #   - name: English
-  #     link: /
+  #     link: en
   #     lang: en
+  #   - name: Chinese
+  #     link: zh
+  #     lang: zh
+  alternate:
+    - name: English
+      link: /
+      lang: en
 
 nav:
   # - Home: https://z1996xm.github.io/BIGTREETECH
