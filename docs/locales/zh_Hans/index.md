@@ -1,15 +1,22 @@
-***
-
+---
 hide:
+  - toc
+title: Welcome
+---
 
-- toc title: 欢迎
+## Here’s BIGTREETECH! For Makers, by makers!
 
-***
+<p>We appreciate all of your support to BIGTREETECH! To offer an excellent experience<br> of creation to every makers,We’re devoted to design and produce high-quality <br>and durable accessories!</p>
 
-![](img/klipper-logo.png){ .center-image }
+## How to contact
 
-Klipper一个将通用计算机的运算能力与一个或多个微控制器相结合的3D打印机固件。有关Klipper的优势，请参阅[功能](Features.md)文档。
+If you have any technical issue,please don’t hesitate contact us:<br/> 
+BIGTREETECH: service004@biqu3d.com
 
-要开始使用 Klipper，请从[安装文档](Installation.md)开始阅读。
+## Follow us on social media to get more news
 
-Klipper是自由软件。阅读[文档](Overview.md)或查看[GitHub上的Klipper代码](https://github.com/Klipper3d/klipper)。我们依赖我们[赞助商](Sponsors.md)的慷慨支持。
+* Facebook: https://www.facebook.com/BIGTREETECH/
+* Twitter: https://twitter.com/BigTreeTech
+* Instagram: https://www.instagram.com/bigtreetech_official/
+* Official Site: https://bigtree-tech.com/
+
