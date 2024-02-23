@@ -169,10 +169,10 @@ extra:
   # Language Selection
   alternate: 
     - name: English
-      link: /en/
+      link: https://z1996xm.github.io/BIGTREETECH_translations/en/
       lang: en
     - name: Chinese
-      link: /zh/
+      link: https://z1996xm.github.io/BIGTREETECH_translations/zh/
       lang: zh
   # alternate: 
   #   - name: English
