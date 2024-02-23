@@ -167,13 +167,13 @@ extra:
     provider: google
     property: UA-138371409-1
   # Language Selection
-  alternate: 
-    - name: English
-      link: en
-      lang: en
-    - name: Chinese
-      link: zh
-      lang: zh
+  # alternate: 
+  #   - name: English
+  #     link: en
+  #     lang: en
+  #   - name: Chinese
+  #     link: zh
+  #     lang: zh
   # alternate:
   #   - name: English
   #     link: /
