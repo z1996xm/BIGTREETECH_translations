@@ -167,21 +167,21 @@ extra:
     provider: google
     property: UA-138371409-1
   # Language Selection
-  # alternate: 
-  #   - name: English
-  #     link: en
-  #     lang: en
-  #   - name: Chinese
-  #     link: zh
-  #     lang: zh
   alternate: 
     - name: English
       link: en
       lang: en
-  alternate:     
-    - name: 简体中文
+    - name: Chinese
       link: zh
       lang: zh
+  # alternate: 
+  #   - name: English
+  #     link: en
+  #     lang: en
+  # alternate:     
+  #   - name: 简体中文
+  #     link: zh
+  #     lang: zh
 nav:
   # - Home: https://z1996xm.github.io/BIGTREETECH_translations/
   - BTT: 
