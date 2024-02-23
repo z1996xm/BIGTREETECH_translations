@@ -13,15 +13,11 @@ MKDOCS_MAIN="${MKDOCS_DIR}mkdocs-main.yml"
 git clone --depth 1 https://github.com/z1996xm/BIGTREETECH_translations ${TRANS_DIR}
 
 # # Create new mkdocs-main.yml with language links
-# cp ${MKDOCS_DIR}mkdocs.yml ${MKDOCS_MAIN}
-# while IFS="," read dirname langsite langdesc langsearch; do
-#   sed -i "s%^.*# Alternate language links automatically added here$%    - name: ${langdesc}\n      link: /${langsite}/\n      lang: ${langsite}\n\0%" ${MKDOCS_MAIN}
-# done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
-
 cp ${MKDOCS_DIR}mkdocs.yml ${MKDOCS_MAIN}
 while IFS="," read dirname langsite langdesc langsearch; do
-  sed -i "s%^.* Alternate language links automatically added here$%    - name: ${简体中文}\n      link: /${zh}/\n      lang: ${zh}\n\0%" ${MKDOCS_MAIN}
+  sed -i "s%^.*# Alternate language links automatically added here$%    - name: ${langdesc}\n      link: /${langsite}/\n      lang: ${langsite}\n\0%" ${MKDOCS_MAIN}
 done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
+
 
 # Build main English website
 echo "building site for en"
