@@ -174,10 +174,10 @@ extra:
   #   - name: Chinese
   #     link: zh
   #     lang: zh
-  # alternate:
-  #   - name: English
-  #     link: /
-  #     lang: en
+  alternate:
+    - name: 
+      link: 
+      lang: 
 
 nav:
   # - Home: https://z1996xm.github.io/BIGTREETECH_translations/
