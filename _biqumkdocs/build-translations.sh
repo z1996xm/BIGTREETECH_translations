@@ -20,7 +20,7 @@ git clone --depth 1 https://github.com/z1996xm/BIGTREETECH_translations ${TRANS_
 
 cp ${MKDOCS_DIR}mkdocs.yml ${MKDOCS_MAIN}
 while IFS="," read dirname langsite langdesc langsearch; do
-  sed -i "s%^.*# Alternate language links automatically added here$%    - name: ${简体中文}\n      link: /${zh}/\n      lang: ${zh}\n\0%" ${MKDOCS_MAIN}
+  sed -i "s%^.* Alternate language links automatically added here$%    - name: ${简体中文}\n      link: /${zh}/\n      lang: ${zh}\n\0%" ${MKDOCS_MAIN}
 done < <(egrep -v '^ *(#|$)' ${TRANS_FILE})
 
 # Build main English website
