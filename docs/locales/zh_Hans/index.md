@@ -4,4 +4,5 @@ hide:
 title: 欢迎
 ---
 
-## 这是BIGTREETECH！为创客，由创客！
+## 这是BIGTREETECH！For Makers, by makers!
+
