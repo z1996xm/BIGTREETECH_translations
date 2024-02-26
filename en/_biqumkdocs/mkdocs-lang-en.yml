@@ -104,7 +104,6 @@ extra_css:
 
 # Site usage statistics
 extra:
-  # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-analytics/#site-search-tracking
   analytics:
     provider: google
     property: UA-138371409-1
