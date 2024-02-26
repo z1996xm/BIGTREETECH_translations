@@ -4,7 +4,7 @@
 # layout.  See that script and the README file for more details.
 
 # Site and directory configuration
-site_name: BIGTREETECH documentation
+site_name: BIGTREETECH 文档
 repo_url: https://github.com/z1996xm/BIGTREETECH_translations
 repo_name: z1996xm/BIGTREETECH_translations
 edit_uri: blob/main/docs/
