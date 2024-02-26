@@ -4,7 +4,7 @@ BTT
 
 HDMI5
 
-主板 系列
+mainboard 系列
 
 Manta 系列
 
@@ -12,7 +12,7 @@ BIQU
 
 HDMI7
 
-Panda系列
+熊猫 系列
 
 Panda 热端
 
