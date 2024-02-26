@@ -4,15 +4,13 @@ BTT
 
 HDMI5
 
-mainboard 系列
+主板
 
 Manta 系列
 
 BIQU
 
-HDMI7
-
-熊猫 系列
+Panda 系列
 
 Panda 热端
 
@@ -21,3 +19,5 @@ Panda 挤出头
 X1
 
 P1
+
+HDMI7
