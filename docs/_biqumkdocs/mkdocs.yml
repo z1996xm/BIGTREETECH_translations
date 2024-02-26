@@ -121,10 +121,10 @@ nav:
     - HDMI5:
       - HDMI5.md
     - Motherboards:
-    - Manta Series:
-      - M4P.md
-      - M5P.md
-      - M8P.md
+      - Manta Series:
+        - M4P.md
+        - M5P.md
+        - M8P.md
   - BIQU: 
     - HDMI7: 
       - HDMI7.md
