@@ -128,4 +128,14 @@ nav:
   - BIQU: 
     - HDMI7: 
       - HDMI7.md
+    - Panda series: 
+      - Panda Hotend:
+        - Panda Flow:
+          - X1:
+            - Panda Flow X1.md
+          - P1:
+            - Panda Flow P1.md
+      - PandaTouch.md
+
+
 

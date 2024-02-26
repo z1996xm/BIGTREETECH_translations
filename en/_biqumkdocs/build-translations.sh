@@ -31,16 +31,16 @@ while IFS="," read dirname langsite langdesc langsearch; do
   # read toc
   title=$(sed -n '1p' ${locale_dir}/Navigation.md)
   BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
-  # HDMI5=$(sed -n '5p' ${locale_dir}/Navigation.md)
-  Motherboards=$(sed -n '5p' ${locale_dir}/Navigation.md)
-  # Manta_Series=$(sed -n '7p' ${locale_dir}/Navigation.md)
-  BIQU=$(sed -n '7p' ${locale_dir}/Navigation.md)
-  # HDMI7=$(sed -n '9p' ${locale_dir}/Navigation.md)
-  # bed_level=$(sed -n '7p' ${locale_dir}/Navigation.md)
-  # resonance_compensation=$(sed -n '9p' ${locale_dir}/Navigation.md)
-  # command_template=$(sed -n '11p' ${locale_dir}/Navigation.md)
-  # developer_documentation=$(sed -n '13p' ${locale_dir}/Navigation.md)
-  # device_specific_documents=$(sed -n '15p' ${locale_dir}/Navigation.md)
+  HDMI5=$(sed -n '5p' ${locale_dir}/Navigation.md)
+  Motherboards=$(sed -n '7p' ${locale_dir}/Navigation.md)
+  Manta_Series=$(sed -n '9p' ${locale_dir}/Navigation.md)
+  BIQU=$(sed -n '11p' ${locale_dir}/Navigation.md)
+  HDMI7=$(sed -n '13p' ${locale_dir}/Navigation.md)
+  Panda_series=$(sed -n '15p' ${locale_dir}/Navigation.md)
+  Panda_Hotend=$(sed -n '17p' ${locale_dir}/Navigation.md)
+  Panda_Flow=$(sed -n '19p' ${locale_dir}/Navigation.md)
+  X1=$(sed -n '21p' ${locale_dir}/Navigation.md)
+  P1=$(sed -n '23p' ${locale_dir}/Navigation.md)
 
   # Copy markdown files to new_docs_dir
   echo "Copying $dirname to $langsite"
@@ -74,14 +74,16 @@ while IFS="," read dirname langsite langdesc langsearch; do
   echo "replace toc"
   sed -i "s%BIGTREETECH documentation$%${title}%" "${new_mkdocs_file}"
   sed -i "s%BTT:$%${BTT}:%" "${new_mkdocs_file}"
-  # sed -i "s%HDMI5:$%${HDMI5}:%" "${new_mkdocs_file}"
+  sed -i "s%HDMI5:$%${HDMI5}:%" "${new_mkdocs_file}"
   sed -i "s%Motherboards:$%${Motherboards}:%" "${new_mkdocs_file}"  
-  # sed -i "s%Manta_Series:$%${Manta_Series}:%" "${new_mkdocs_file}"    
+  sed -i "s%Manta Series:$%${Manta_Series}:%" "${new_mkdocs_file}"    
   sed -i "s%BIQU:$%${BIQU}:%" "${new_mkdocs_file}"
-  # sed -i "s%HDMI7:$%${HDMI7}:%" "${new_mkdocs_file}"
-  # sed -i "s%Command templates:$%${command_template}:%" "${new_mkdocs_file}"
-  # sed -i "s%Developer Documentation:$%${developer_documentation}:%" "${new_mkdocs_file}"
-  # sed -i "s%Device Specific Documents:$%${device_specific_documents}:%" "${new_mkdocs_file}"
+  sed -i "s%HDMI7:$%${HDMI7}:%" "${new_mkdocs_file}"
+  sed -i "s%Panda series:$%${Panda_series}:%" "${new_mkdocs_file}"
+  sed -i "s%Panda Hotend:$%${Panda_Hotend}:%" "${new_mkdocs_file}"    
+  sed -i "s%Panda Flow:$%${Panda_Flow}:%" "${new_mkdocs_file}"
+  sed -i "s%X1:$%${X1}:%" "${new_mkdocs_file}"
+  sed -i "s%P1:$%${P1}:%" "${new_mkdocs_file}"
 
   # Build site
   echo "building site for ${langsite}"
