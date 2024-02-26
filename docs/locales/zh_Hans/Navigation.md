@@ -1,4 +1,4 @@
-BIGTREETECH documentation
+BIGTREETECH 文档
 
 BTT
 
@@ -6,7 +6,7 @@ HDMI5
 
 主板
 
-Manta 系列
+Manta_系列
 
 BIQU
 
