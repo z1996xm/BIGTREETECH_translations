@@ -33,7 +33,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   BTT=$(sed -n '3p' ${locale_dir}/Navigation.md)
   HDMI5=$(sed -n '5p' ${locale_dir}/Navigation.md)
   Motherboards=$(sed -n '7p' ${locale_dir}/Navigation.md)
-  MantaSeries=$(sed -n '9p' ${locale_dir}/Navigation.md)
+  Manta_Series=$(sed -n '9p' ${locale_dir}/Navigation.md)
   BIQU=$(sed -n '11p' ${locale_dir}/Navigation.md)
   HDMI7=$(sed -n '13p' ${locale_dir}/Navigation.md)
   # bed_level=$(sed -n '7p' ${locale_dir}/Navigation.md)
@@ -76,7 +76,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%BTT:$%${BTT}:%" "${new_mkdocs_file}"
   sed -i "s%HDMI5:$%${HDMI5}:%" "${new_mkdocs_file}"
   sed -i "s%Motherboards:$%${Motherboards}:%" "${new_mkdocs_file}"  
-  sed -i "s%Manta Series:$%${Manta Series}:%" "${new_mkdocs_file}"    
+  sed -i "s%Manta_Series:$%${Manta Series}:%" "${new_mkdocs_file}"    
   sed -i "s%BIQU:$%${BIQU}:%" "${new_mkdocs_file}"
   sed -i "s%HDMI7:$%${HDMI7}:%" "${new_mkdocs_file}"
   # sed -i "s%Command templates:$%${command_template}:%" "${new_mkdocs_file}"
