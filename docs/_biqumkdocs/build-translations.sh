@@ -76,7 +76,7 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%BTT:$%${BTT}:%" "${new_mkdocs_file}"
   sed -i "s%HDMI5:$%${HDMI5}:%" "${new_mkdocs_file}"
   sed -i "s%Motherboards:$%${Motherboards}:%" "${new_mkdocs_file}"  
-  sed -i "s%Manta_Series:$%${Manta Series}:%" "${new_mkdocs_file}"    
+  sed -i "s%Manta_Series:$%${Manta_Series}:%" "${new_mkdocs_file}"    
   sed -i "s%BIQU:$%${BIQU}:%" "${new_mkdocs_file}"
   sed -i "s%HDMI7:$%${HDMI7}:%" "${new_mkdocs_file}"
   # sed -i "s%Command templates:$%${command_template}:%" "${new_mkdocs_file}"
