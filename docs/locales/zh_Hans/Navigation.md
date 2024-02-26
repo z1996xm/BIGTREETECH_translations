@@ -6,7 +6,7 @@ HDMI5
 
 主板
 
-Manta系列
+Manta 系列
 
 BIQU
 

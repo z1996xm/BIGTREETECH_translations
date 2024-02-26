@@ -6,7 +6,7 @@ HDMI5
 
 Motherboards
 
-Manta_Series
+Manta Series
 
 BIQU
 
