@@ -126,8 +126,6 @@ nav:
         - M5P.md
         - M8P.md
   - BIQU: 
-    - HDMI7: 
-      - HDMI7.md
     - Panda series: 
       - Panda Hotend:
         - Panda Flow:
@@ -136,6 +134,7 @@ nav:
           - P1:
             - Panda Flow P1.md
       - PandaTouch.md
-
+    - HDMI7: 
+      - HDMI7.md
 
 

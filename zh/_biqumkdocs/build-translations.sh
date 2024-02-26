@@ -35,12 +35,12 @@ while IFS="," read dirname langsite langdesc langsearch; do
   Motherboards=$(sed -n '7p' ${locale_dir}/Navigation.md)
   Manta_Series=$(sed -n '9p' ${locale_dir}/Navigation.md)
   BIQU=$(sed -n '11p' ${locale_dir}/Navigation.md)
-  HDMI7=$(sed -n '13p' ${locale_dir}/Navigation.md)
-  Panda_series=$(sed -n '15p' ${locale_dir}/Navigation.md)
-  Panda_Hotend=$(sed -n '17p' ${locale_dir}/Navigation.md)
-  Panda_Flow=$(sed -n '19p' ${locale_dir}/Navigation.md)
-  X1=$(sed -n '21p' ${locale_dir}/Navigation.md)
-  P1=$(sed -n '23p' ${locale_dir}/Navigation.md)
+  Panda_series=$(sed -n '13p' ${locale_dir}/Navigation.md)
+  Panda_Hotend=$(sed -n '15p' ${locale_dir}/Navigation.md)
+  Panda_Flow=$(sed -n '17p' ${locale_dir}/Navigation.md)
+  X1=$(sed -n '19p' ${locale_dir}/Navigation.md)
+  P1=$(sed -n '21p' ${locale_dir}/Navigation.md)
+  HDMI7=$(sed -n '23p' ${locale_dir}/Navigation.md)
 
   # Copy markdown files to new_docs_dir
   echo "Copying $dirname to $langsite"
@@ -78,12 +78,12 @@ while IFS="," read dirname langsite langdesc langsearch; do
   sed -i "s%Motherboards:$%${Motherboards}:%" "${new_mkdocs_file}"  
   sed -i "s%Manta Series:$%${Manta_Series}:%" "${new_mkdocs_file}"    
   sed -i "s%BIQU:$%${BIQU}:%" "${new_mkdocs_file}"
-  sed -i "s%HDMI7:$%${HDMI7}:%" "${new_mkdocs_file}"
   sed -i "s%Panda series:$%${Panda_series}:%" "${new_mkdocs_file}"
   sed -i "s%Panda Hotend:$%${Panda_Hotend}:%" "${new_mkdocs_file}"    
   sed -i "s%Panda Flow:$%${Panda_Flow}:%" "${new_mkdocs_file}"
   sed -i "s%X1:$%${X1}:%" "${new_mkdocs_file}"
   sed -i "s%P1:$%${P1}:%" "${new_mkdocs_file}"
+  sed -i "s%HDMI7:$%${HDMI7}:%" "${new_mkdocs_file}"
 
   # Build site
   echo "building site for ${langsite}"
