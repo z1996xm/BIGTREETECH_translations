@@ -14,7 +14,7 @@ Panda 系列
 
 Panda 热端
 
-Panda 挤出头
+Panda 挤出头/CHT
 
 X1
 

@@ -14,7 +14,7 @@ Panda series
 
 Panda Hotend
 
-Panda Flow
+Panda Flow/CHT
 
 X1
 
