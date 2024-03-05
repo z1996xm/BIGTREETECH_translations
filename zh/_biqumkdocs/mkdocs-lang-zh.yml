@@ -128,11 +128,13 @@ nav:
   - BIQU: 
     - Panda series: 
       - Panda 热端:
-        - Panda 挤出头:
+        - Panda Flow/CHT:
           - X1:
             - Panda Flow X1.md
+            - Panda CHT X1.md
           - P1:
             - Panda Flow P1.md
+            - Panda CHT P1.md
       - PandaTouch.md
     - HDMI7: 
       - HDMI7.md
