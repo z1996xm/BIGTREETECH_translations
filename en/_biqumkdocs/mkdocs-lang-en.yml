@@ -120,6 +120,7 @@ nav:
   - BTT: 
     - HDMI5:
       - HDMI5.md
+      - PandaTouch.md
     - Motherboards:
       - Manta Series:
         - M4P.md
