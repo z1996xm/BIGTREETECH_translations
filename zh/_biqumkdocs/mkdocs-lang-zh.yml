@@ -120,7 +120,6 @@ nav:
   - BTT: 
     - HDMI5:
       - HDMI5.md
-      - Panda Touch.md
     - 主板:
       - Manta 系列:
         - M4P.md
@@ -136,7 +135,7 @@ nav:
           - P1:
             - Panda Flow P1.md
             - Panda CHT P1.md
-      - Panda-Touch.md
+      - K-Touch.md
       - PandaTouch.md
     - HDMI7: 
       - HDMI7.md
