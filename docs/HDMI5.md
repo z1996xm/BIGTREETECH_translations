@@ -7,7 +7,7 @@
 <p>BIGTREETECH HDMI5 V1.0 is a universal 5-inch HDMI display screen developed by the 3D printing team of Shenzhen Big Tree Technology Co., Ltd.</p>
 
 <video width="320" height="240" controls>
-    <source src="https://github.com/z1996xm/BIGTREETECH_translations/blob/main/docs/img/test.mp4" type="video/mp4">
+    <source src="https://www.youtube.com/watch?v=325NnXCLfKY&t=32s" type="video/mp4">
 </video>
 
 
