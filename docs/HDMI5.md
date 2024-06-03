@@ -23,6 +23,10 @@
 - Built-in audio decoding circuit, support 3.5mm headphone jack audio output.
 - Support brightness and display direction adjustment.
 
+<video width="320" height="240" controls>
+    <source src="img/HDMI5/test1.mp4" type="video/mp4">
+</video>
+
 ## **Basic Parameters**
 
 - Product Dimension: 121 x 76mm
