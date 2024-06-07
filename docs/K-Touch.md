@@ -1,2 +1,2 @@
-# K-Touch
+# Klipper Touch
 

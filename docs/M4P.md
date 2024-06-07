@@ -122,6 +122,8 @@
 
 **<font  color="red">Note: If using A4988or DRV8825, RST and SLP must be shorted with jumper caps for normal operation. </font>**
 
+**<font  color="blue">Note: If usishorted with jumper caps for normal operation. </font>**
+
 For details, please click: https://bigtreetech.github.io/docs/Tutorials.html
 
 
